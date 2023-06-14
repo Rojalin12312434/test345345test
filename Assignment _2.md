@@ -156,7 +156,10 @@ else:
     
 9.If your programme is stuck in an endless loop, what keys you’ll press?
 
-Ans: The key i will press ctrl+c.10. How can you tell the difference between break and continue?
+Ans: The key i will press ctrl+c.
+
+
+10. How can you tell the difference between break and continue?
 
 Ans:The statement will move the execution outside and just after a loop.The continue statement will
 move the execution to the start of the loop.
@@ -213,6 +216,8 @@ while i<=10:
     
     ---------- Using While Loop ----------
     1 2 3 4 5 6 7 8 9 10 
+
+
 13. If you had a function named bacon() inside a module named spam, how would you call it after importing spam?
 
 Ans: This function can be called with spam.bacon() .
