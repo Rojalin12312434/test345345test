@@ -1,4 +1,5 @@
-# Assignment 2
+ Assignment 2
+
 1.What are the two values of the Boolean data type? How do you write them?
 
 Ans: The Boolean data types has two values i.e True and False,Which are special versions of 1 and 0
@@ -12,8 +13,7 @@ b = False
 print(a)
 print(b)
 ```
-
-    True
+    True 
     False
     
 2. What are the three different types of Boolean operators?
@@ -53,6 +53,7 @@ Truth Table for Not
 A output
 o 1
 1 0
+
 4. What are the values of the following expressions?
 
 ```python
