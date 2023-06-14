@@ -76,6 +76,8 @@ print((not False) or (not True))
 5. What are the six comparison operators?
 
 Ans: ==,!=,<,>,<=,and >=
+
+
 6. How do you tell the difference between the equal to and assignment operators?Describe a condition and when you would use one.
 
 Ans: == is the equal operator that compares two values and evaluates to a Boolean, while = is the assignment operator that stores a value in a variable.
@@ -164,7 +166,10 @@ for i in l :
 
 Ans: They all do the some thing.The range(10) call ranges from 0 up to(but not including)10,
 range(0,10) explicitly tells the loop to start at 0 ,and range(0,10,1) explicitly tells the loop to
-increase the variable by 1 on each iteration.12. Write a short program that prints the numbers 1 to 10 using a for loop. Then write an equivalent program that prints the numbers 1 to 10 using a while loop.
+increase the variable by 1 on each iteration.
+
+
+12. Write a short program that prints the numbers 1 to 10 using a for loop. Then write an equivalent program that prints the numbers 1 to 10 using a while loop.
 
 
 ```python
