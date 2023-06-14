@@ -2,7 +2,7 @@
 
 1.What are the two values of the Boolean data type? How do you write them?
 
-Ans: The Boolean data types has two values i.e True and False,Which are special versions of 1 and 0
+Ans: The Boolean data types has two values i.e True and False,Which are special versions of 1 and 0 
 respectively and behave as such in arithmetic conyexts.It is written as True=1 and False=0 .
 
 ```python
@@ -18,7 +18,10 @@ print(b)
     
 2. What are the three different types of Boolean operators?
 
-Ans: The three different types of Boolean operators are AND,OR,NOT.3. Make a list of each Boolean operator's truth tables (i.e. every possible combination of Boolean values for the operator and what it evaluate ).
+Ans: The three different types of Boolean operators are AND,OR,NOT.
+
+
+3. Make a list of each Boolean operator's truth tables (i.e. every possible combination of Boolean values for the operator and what it evaluate ).
 
 Ans: True and True is True.
 True and False is False.
