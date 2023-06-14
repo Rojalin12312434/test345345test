@@ -24,38 +24,59 @@ Ans: The three different types of Boolean operators are AND,OR,NOT.
 3. Make a list of each Boolean operator's truth tables (i.e. every possible combination of Boolean values for the operator and what it evaluate ).
 
 Ans: True and True is True.
+
 True and False is False.
+  
 False and True is False.
+
 False and False is False
 
 True or True is True.
+
 True or False is True.
+
 False or True is True.
+
 False or False is False.
 
 not True is False.
+
 not False is True.
 
 True is 1 and False is 0
 
 Truth Table for AND
+
 A B Output
-0 0 0
+
+0 0 0 
+
 0 1 0
+
 1 0 0
+
 1 1 1
 
 Truth Table for OR
+
 A B output
+
 0 0 0
+
 0 1 1
+
 1 0 1
+
 1 1 1
 
 Truth Table for Not
+
 A output
+
 o 1
+
 1 0
+
 
 4. What are the values of the following expressions?
 
