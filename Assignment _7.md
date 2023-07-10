@@ -1,4 +1,4 @@
- Assignment 7
+Assignment 7
 
 Q.1. Create two int type variables, apply addition, subtraction, division and multiplications
 and store the results in variables. Then print the data in the following format by calling the
@@ -12,29 +12,34 @@ Division: __ / __ = __
 
 
 ```python
-print("Enter first number: ")
-num1 = int(input())
-print("Enter second number: ")
-num2 = int(input())
-res = num1+num2
-print("\nAddition Result = ", res)
-res = num1-num2
-print("Subtraction Result = ", res)
-res = num1*num2
-print("Multiplication Result = ",res)
-res = num1/num2
-print("Division Result = ", res)
+num1 = 10
+num2 = 4
+Addition=num1+num2
+print(Addition)
+Subtraction=num1-num2
+print(Subtraction)
+Multiplication=num1*num2
+print(Multiplication)
+Division=num1/num2
+print(Division)
+def var_function():
+    print("First variable is:",num1)
+    print("Second variable is:",num2)
+    print("Addition:num1+num2:",Addition)
+    print("Subtraction:num1-num2:",Subtraction)
+    print("Division:num1/num2:",num1/num2)
+var_function()    
 ```
 
-    Enter first number: 
-    7
-    Enter second number: 
-    4
-    
-    Addition Result =  11
-    Subtraction Result =  3
-    Multiplication Result =  28
-    Division Result =  1.75
+    14
+    6
+    40
+    2.5
+    First variable is: 10
+    Second variable is: 4
+    Addition:num1+num2: 14
+    Subtraction:num1-num2: 6
+    Division:num1/num2: 2.5
     
 Q.2. What is the difference between the following operators:
 
@@ -77,7 +82,6 @@ Q.4. Explain right shift operator and left shift operator with examples.
 
 Ans:-right shift:
 Shifts the bits of the number to the right and fills 0 on voids left(fills 1 in the case of a negative number) as a result.Similar effect as of dividing the number with some power of two.
-
 Example:
 a = 10 = 0000 1010 (Binary)
 a >> 1 = 0000 0101 = 5
@@ -110,17 +114,16 @@ present in the list or not.
 
 
 ```python
-len=[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]
-len[10]
-
+My_list=[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]
+i=10
+if i in My_list:
+    print("present")
+else:
+    print("not present")
 ```
 
-
-
-
-    11
-
-
+    present
+    
 
 
 ```python
